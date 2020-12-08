@@ -1,0 +1,40 @@
+.todoItem {
+    margin: 5px;
+    background-color: #F7F7F7;
+    border: 1px solid #DFDFDF;    
+    padding: 10px;
+    display: flex;
+}
+
+.todoInfo {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    flex: 1 1;
+    justify-content: center;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.todoName, .dueDate, .daysLeft {
+    flex: 1 1;
+    text-align: center;
+}
+
+.removeBtn {
+    background-color: #F7F7F7;
+    border: none;
+    outline:none;
+    font-size: 24px;
+    opacity: 0.6;
+    line-height: 26px;
+    width: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.removeBtn:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
